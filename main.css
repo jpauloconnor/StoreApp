@@ -86,6 +86,12 @@ body{
     margin: 0px 0px 3px 0px;
     height: 25px;
 }
+
+
+#header-title {
+    background-color: gray;
+    border-radius: 5px;
+}
 .products{
     width: 25%;
     float: left;
@@ -104,31 +110,34 @@ body{
 .product-thumbnail {
     width: 35px;
     height: 35px;
-
 }
 
 
+.stuff{
+	width: 70%;
+	float: right;
+}
 
+#customer-of-day{
+	width: 450px;
+	height: 450px;
+	border-radius: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
+figcaption{
+	font-size: 12px;
+	font-weight: bold;
+	font: helvetica;
+	text-align: center;
+}
+footer {
+    clear: both;
     width: 100%;
     background-color: chocolate;
     margin: 20px 0px 20px 0px;
     padding: 5px 0px 0px 0px;
     border-radius: 5px;
 }
-
+   
 
 
